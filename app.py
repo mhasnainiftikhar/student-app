@@ -7,7 +7,7 @@ def get_students():
     return ["Alice", "Bob", "Charlie"]
 
 def count_students():
-    return 100
+    return len(get_students())
 
 if __name__ == "__main__":
 
