@@ -1,3 +1,8 @@
+def add_student(name):
+    students = get_students()
+    students.append(name)
+    return students
+
 def get_students():
     return ["Alice", "Bob", "Charlie"]
 
