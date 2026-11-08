@@ -10,5 +10,6 @@ def count_students():
     return len(get_students())
 
 if __name__ == "__main__":
-    print("Student Database System")
+
+    print("Student Management Platform")
     print("Total students:", count_students())
